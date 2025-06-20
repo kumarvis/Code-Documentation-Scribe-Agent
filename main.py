@@ -19,12 +19,16 @@ def run():
         for key, value in result_dct.items():
             classes_dct = result_dct['classes']
             functions_dct = result_dct['top_level_functions']
+            #for class_name, class_txt in classes_dct.items():
             for func_name, func_txt in functions_dct.items():
                 code_documentation = code_analyzer_obj.explain_code(func_txt)
+                print(f"code_documentation = \n {code_documentation}")
                 reviewed_code_documentation = code_reviewer_obj.review_code(func_txt, code_documentation)
-                print(reviewed_code_documentation)
+                print(f"reviewed_code_documentation = \n {reviewed_code_documentation}")
+                print('break')
+                break
 
-            print('break')
+            break
 
 if __name__ == '__main__':
     run()

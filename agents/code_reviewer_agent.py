@@ -23,7 +23,7 @@ class CodeReviewer:
                 {
                     "role": "system",
                     "content": (
-                        "You are Principal Software Engineer with over 15 years of experience in software engineering and AI. Your task is to review the given code snippet and code documentation review it and provide updated code documentation. While updating documentation trictly following the guidelines and tone of the official Python documentation (PEP-8, Python Docs style guide). Return explanation JSON format with key code_review"
+                        "You are Principal Software Engineer with over 15 years of experience in software engineering and AI. Your task is to review the given code snippet and code documentation review it and provide updated code documentation. While updating documentation strictly following the guidelines and tone of the official Python documentation (PEP-8, Python Docs style guide). Return explanation JSON format with key code_review"
                     ),
                 },
                 {

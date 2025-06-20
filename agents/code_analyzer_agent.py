@@ -44,7 +44,7 @@ class CodeAnalyzer:
 
 # Example usage
 if __name__ == "__main__":
-    model_name = 'qwen3:1.7b'
+    model_name = 'qwen3:0.6b'
     code_txt = """
         def subtract(a, b):
         return a - b'
